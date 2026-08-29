@@ -17,3 +17,9 @@ multiple=1+2*3-4/5**6+\
 print(multiple)    
 value= str(num)
 print(type(value))
+
+
+def add_two(a,b):
+ return a+b
+def add_sub(a,b):
+ return a-b

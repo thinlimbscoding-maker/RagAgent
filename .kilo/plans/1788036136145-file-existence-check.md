@@ -14,13 +14,14 @@ print(createFile())
 ```
 
 ## Tasks
-1. Add `import os` to the imports.
-2. After the `with open(...)` block in `createFile()`, add the existence check and return:
+1. Add `import os` to the imports in `python/fileHandlling.py`.
+2. Verify the import works by running `python3 -c "import os; print('os imported')"` from the `python/` directory.
+3. After the `with open(...)` block in `createFile()`, add the existence check and return:
    ```python
    if os.path.exists("notes.txt"):
        return True
    else:
        return False
    ```
-3. The caller (`print(createFile())`) will print `True` or `False`.
-4. Validate by running `cd python && python3 fileHandlling.py` and confirming `notes.txt` is created and the output is `True`.
+4. The caller (`print(createFile())`) will print `True` or `False`.
+5. Validate by running `cd python && python3 fileHandlling.py` and confirming `notes.txt` is created and the output is `True`.
