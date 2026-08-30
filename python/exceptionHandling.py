@@ -5,9 +5,9 @@ except:
     print("plz enter a proper input")
 else:
     if a < 18:
-        a / 10
+        print("you are adult")
     else:
-        print("mr kunal is innocent")
+        print("your are minor")
 
 finally:
     print("all opreation happiend")
