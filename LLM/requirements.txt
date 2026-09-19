@@ -6,3 +6,5 @@ pypdf
 beautifulsoup4
 ollama
 langchain-huggingface
+langchain-community 
+faiss-cpu

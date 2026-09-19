@@ -4,12 +4,17 @@ from langchain_ollama import OllamaEmbeddings
 # 2. Change the model to the dedicated embedding model you pulled
 embeddings = OllamaEmbeddings(model="nomic-embed-text")
 
-text_string = "Why is my API not calling?"
+myDoc = [
+    "india gets freedom in 1947",
+    "india has more than 30 states",
+    "india  has poor roads",
+    "india good  developers",
+]
 
 # 3. Generate the vector
 print("🔄 Generating embedding via nomic-embed-text...")
-query_vector = embeddings.embed_query(text_string)
+query_vector = embeddings.embed_documents(myDoc)
 
 print("🎉 LangChain Ollama embedding generated successfully!")
-print(f"📏 Vector Dimensions: {len(query_vector)}")
-print(f"🔢 First 5 numbers: {query_vector[:5]}")
+print(f"📏 Vector Dimensions: {len(query_vector[0])}")
+print(f"🔢 First {query_vector}")
