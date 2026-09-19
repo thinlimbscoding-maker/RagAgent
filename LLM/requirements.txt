@@ -1,6 +1,8 @@
 langchain
 python-dotenv
 ipykernel
-langchain_community
+langchain-community
 pypdf
 beautifulsoup4
+ollama
+langchain-huggingface

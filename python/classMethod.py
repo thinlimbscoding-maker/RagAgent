@@ -8,7 +8,8 @@ class Dog:
         return self.dogage
 
     def changeFoodType(cls, newfood):
-        cls.food = "maza"
+        cls.food = newfood
+        return cls.food
 
     @classmethod
     def change_species(cls, newFod):
@@ -17,14 +18,13 @@ class Dog:
 
 dogObj1 = Dog("12")
 dogObj2 = Dog("22")
-print(
-    "trying to change class propety with without class method",
-    dogObj1.changeFoodType("veg2"),
-)
 
-print(dogObj1.ageFInd(), "what is food type", dogObj1.food)
-print(dogObj2.ageFInd(), "what is food type", dogObj1.food)
+Dog.change_species("burder")
 
-dogObj1.change_species("veg")
-print(dogObj2.ageFInd(), "what is food type", dogObj1.food)
-print(dogObj2.ageFInd(), "what is food type", dogObj2.food)
+
+print(Dog.food)
+print(dogObj1.food)
+print(dogObj2.food)
+print(dogObj1.changeFoodType(8))
+print(dogObj1.food)
+print(Dog.food)  # 🟢 Output is STILL: burder
