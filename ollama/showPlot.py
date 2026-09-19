@@ -18,6 +18,12 @@ myDoc = [
     "india has poor roads",
     "india has more than 30 states",
     "india good developers",
+    "30",
+    "32",
+    "34",
+    "36",
+    "38",
+    "40",
 ]
 
 # Build database index cleanly

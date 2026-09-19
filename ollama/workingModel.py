@@ -10,6 +10,12 @@ myDoc = [
     "india has more than 30 states",
     "india has poor roads",
     "india good developers",
+    "30",
+    "32",
+    "34",
+    "36",
+    "38",
+    "40",
 ]
 
 print("🔄 Generating embeddings and creating local vector DB...")
@@ -19,7 +25,7 @@ db = FAISS.from_texts(myDoc, embeddings)
 print("🎉 Vector DB created successfully!")
 print("showwww", db)
 # 4. Define your search query
-user_query = "what happend in 19 47"
+user_query = "what happend in 1947"
 print(f"\n🔍 Hitting Query: '{user_query}'")
 
 # 5. Search the database for the top 2 closest semantic matches
