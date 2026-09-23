@@ -19,7 +19,6 @@ from typing import Any
 import ollama
 from fastmcp import FastMCP
 
-
 DATA_DIR = Path(__file__).resolve().parent
 TARGET_MODEL = "qwen2.5-coder:7b-instruct-q4_K_M"
 COLLECTION_FILES = {
@@ -127,10 +126,14 @@ def get_customer_overview(customer: str) -> dict[str, Any]:
 
     user = users[0]
     customer_id = user["_id"]
-    policies = [p for p in load_collection("policies") if p.get("customerId") == customer_id]
+    policies = [
+        p for p in load_collection("policies") if p.get("customerId") == customer_id
+    ]
     policy_ids = {p["_id"] for p in policies}
     claims = [c for c in load_collection("claims") if c.get("policyId") in policy_ids]
-    payments = [p for p in load_collection("payments") if p.get("customerId") == customer_id]
+    payments = [
+        p for p in load_collection("payments") if p.get("customerId") == customer_id
+    ]
     return {
         "found": True,
         "customer": user,
@@ -149,9 +152,15 @@ def get_policy_overview(policy: str) -> dict[str, Any]:
 
     selected = matches[0]
     policy_id = selected["_id"]
-    users = [u for u in load_collection("users") if u.get("_id") == selected.get("customerId")]
+    users = [
+        u
+        for u in load_collection("users")
+        if u.get("_id") == selected.get("customerId")
+    ]
     claims = [c for c in load_collection("claims") if c.get("policyId") == policy_id]
-    payments = [p for p in load_collection("payments") if p.get("policyId") == policy_id]
+    payments = [
+        p for p in load_collection("payments") if p.get("policyId") == policy_id
+    ]
     return {
         "found": True,
         "policy": selected,
@@ -193,7 +202,9 @@ def process_agent_query(
 ) -> str:
     """Let Ollama select local tools and produce a grounded final response."""
     history = history or []
-    ambiguous_reference = re.search(r"\b(that|this|it|its)\s+plan\b", user_input, re.IGNORECASE)
+    ambiguous_reference = re.search(
+        r"\b(that|this|it|its)\s+plan\b", user_input, re.IGNORECASE
+    )
     if ambiguous_reference and not history:
         return "Which plan do you mean? Please provide its name or plan code, such as Health Secure or HLT-SEC-01."
 
@@ -203,7 +214,9 @@ def process_agent_query(
         {"role": "user", "content": user_input},
     ]
 
-    response = ollama.chat(model=TARGET_MODEL, messages=messages, tools=list(TOOL_FUNCTIONS.values()))
+    response = ollama.chat(
+        model=TARGET_MODEL, messages=messages, tools=list(TOOL_FUNCTIONS.values())
+    )
     messages.append(response.message)
 
     requested_tools: list[tuple[str, dict[str, Any]]] = []
@@ -231,7 +244,9 @@ def process_agent_query(
             try:
                 allowed_arguments = inspect.signature(function).parameters
                 clean_arguments = {
-                    key: value for key, value in arguments.items() if key in allowed_arguments
+                    key: value
+                    for key, value in arguments.items()
+                    if key in allowed_arguments
                 }
                 result = function(**clean_arguments)
             except Exception as error:
@@ -239,11 +254,13 @@ def process_agent_query(
 
         print(f"🔧 Tool used: {name}")
         completed_tools.append({"tool": name, "result": result})
-        messages.append({
-            "role": "tool",
-            "tool_name": name,
-            "content": json.dumps(result, ensure_ascii=False),
-        })
+        messages.append(
+            {
+                "role": "tool",
+                "tool_name": name,
+                "content": json.dumps(result, ensure_ascii=False),
+            }
+        )
 
     if requested_tools:
         response = ollama.chat(
@@ -280,17 +297,21 @@ def interactive_loop() -> None:
         try:
             answer = process_agent_query(user_input, history)
             print(f"\n{answer}\n")
-            history.extend([
-                {"role": "user", "content": user_input},
-                {"role": "assistant", "content": answer},
-            ])
+            history.extend(
+                [
+                    {"role": "user", "content": user_input},
+                    {"role": "assistant", "content": answer},
+                ]
+            )
         except Exception as error:
-            print(f"\nUnable to process query: {error}\n")
+            print(f"\nUnable to proess query: {error}\n")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Insurance JSON agent and MCP server")
-    parser.add_argument("--mcp", action="store_true", help="run the FastMCP stdio server")
+    parser.add_argument(
+        "--mcp", action="store_true", help="run the FastMCP stdio server"
+    )
     args = parser.parse_args()
     if args.mcp:
         mcp.run()
