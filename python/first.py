@@ -1,25 +1,26 @@
 print("Hello, World!")
 Name = "John"
-name="John"
-age=20
-num=102
+name = "John"
+age = 20
+num = 102
 print(Name)
 print(name)
-print(Name==name)
-a=int(age)
+print(Name == name)
+a = int(age)
 
-if age>18:
-    print("you are an adult")
+if age > 18:
+    print("you are an asdult")
 else:
     print("you are not an adult")
-multiple=1+2*3-4/5**6+\
-    3*2/4+5-6*7/8**9
-print(multiple)    
-value= str(num)
+multiple = 1 + 2 * 3 - 4 / 5**6 + 3 * 2 / 4 + 5 - 6 * 7 / 8**9
+print(multiple)
+value = str(num)
 print(type(value))
 
 
-def add_two(a,b):
- return a+b
-def add_sub(a,b):
- return a-b
+def add_two(a, b):
+    return a + b
+
+
+def add_sub(a, b):
+    return a - b
