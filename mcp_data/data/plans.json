@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "plan_health_secure",
+    "planCode": "HLT-SEC-01",
+    "name": "Health Secure",
+    "category": "health",
+    "description": "Hospitalization cover for individuals and families.",
+    "premium": {
+      "amount": 8999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "coverageAmount": 500000,
+    "deductible": 10000,
+    "termMonths": 12,
+    "minAge": 18,
+    "maxAge": 65,
+    "features": [
+      "cashless hospitalization",
+      "pre and post hospitalization",
+      "day-care procedures"
+    ],
+    "activeFrom": "2026-01-01T00:00:00Z",
+    "activeTo": "2027-12-31T23:59:59Z",
+    "isActive": true
+  },
+  {
+    "_id": "plan_health_plus",
+    "planCode": "HLT-PLS-02",
+    "name": "Health Plus Family",
+    "category": "health",
+    "description": "Family floater medical cover for up to six members.",
+    "premium": {
+      "amount": 15999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "coverageAmount": 1000000,
+    "deductible": 15000,
+    "termMonths": 12,
+    "minAge": 21,
+    "maxAge": 65,
+    "features": [
+      "family floater",
+      "maternity benefit",
+      "annual health check"
+    ],
+    "activeFrom": "2026-01-01T00:00:00Z",
+    "activeTo": "2027-12-31T23:59:59Z",
+    "isActive": true
+  },
+  {
+    "_id": "plan_term_guard",
+    "planCode": "LIF-TRM-01",
+    "name": "Term Life Guard",
+    "category": "life",
+    "description": "Pure term life protection with accidental death benefit.",
+    "premium": {
+      "amount": 12500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "coverageAmount": 5000000,
+    "deductible": 0,
+    "termMonths": 240,
+    "minAge": 21,
+    "maxAge": 55,
+    "features": [
+      "death benefit",
+      "accidental death rider",
+      "tax benefit"
+    ],
+    "activeFrom": "2026-01-01T00:00:00Z",
+    "activeTo": "2030-12-31T23:59:59Z",
+    "isActive": true
+  },
+  {
+    "_id": "plan_motor_basic",
+    "planCode": "MTR-BSC-01",
+    "name": "Motor Basic",
+    "category": "motor",
+    "description": "Third-party motor insurance for private cars.",
+    "premium": {
+      "amount": 4500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "coverageAmount": 750000,
+    "deductible": 2000,
+    "termMonths": 12,
+    "minAge": 18,
+    "maxAge": 75,
+    "features": [
+      "third-party liability",
+      "personal accident cover",
+      "legal assistance"
+    ],
+    "activeFrom": "2026-01-01T00:00:00Z",
+    "activeTo": "2027-12-31T23:59:59Z",
+    "isActive": true
+  },
+  {
+    "_id": "plan_motor_complete",
+    "planCode": "MTR-CMP-02",
+    "name": "Motor Complete",
+    "category": "motor",
+    "description": "Comprehensive protection for private cars.",
+    "premium": {
+      "amount": 13500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "coverageAmount": 1200000,
+    "deductible": 5000,
+    "termMonths": 12,
+    "minAge": 18,
+    "maxAge": 75,
+    "features": [
+      "own damage",
+      "third-party liability",
+      "roadside assistance"
+    ],
+    "activeFrom": "2026-01-01T00:00:00Z",
+    "activeTo": "2027-12-31T23:59:59Z",
+    "isActive": true
+  },
+  {
+    "_id": "plan_travel_world",
+    "planCode": "TRV-WLD-01",
+    "name": "Travel World",
+    "category": "travel",
+    "description": "International travel protection for one trip.",
+    "premium": {
+      "amount": 2999,
+      "currency": "INR",
+      "billingCycle": "single"
+    },
+    "coverageAmount": 2500000,
+    "deductible": 5000,
+    "termMonths": 3,
+    "minAge": 1,
+    "maxAge": 70,
+    "features": [
+      "medical emergency",
+      "trip cancellation",
+      "lost baggage"
+    ],
+    "activeFrom": "2026-01-01T00:00:00Z",
+    "activeTo": "2027-12-31T23:59:59Z",
+    "isActive": true
+  }
+]

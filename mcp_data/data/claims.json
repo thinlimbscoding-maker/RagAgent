@@ -1,0 +1,506 @@
+[
+  {
+    "_id": "claim_001",
+    "claimNumber": "CLM-2026-00001",
+    "policyId": "policy_002",
+    "policyNumber": "POL-2026-00002",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0002",
+      "fullName": "Aditi Patel",
+      "email": "aditi.patel2@example.com",
+      "phone": "+91-90000-00002"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-01-03T00:00:00Z",
+      "type": "accident",
+      "description": "Sample claim incident 1 for MCP testing."
+    },
+    "amount": {
+      "requested": 27500,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "submitted",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_001_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-01-05T11:00:00Z",
+    "updatedAt": "2026-01-08T15:00:00Z"
+  },
+  {
+    "_id": "claim_002",
+    "claimNumber": "CLM-2026-00002",
+    "policyId": "policy_004",
+    "policyNumber": "POL-2026-00004",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0004",
+      "fullName": "Ananya Gupta",
+      "email": "ananya.gupta4@example.com",
+      "phone": "+91-90000-00004"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-02-05T00:00:00Z",
+      "type": "vehicle_damage",
+      "description": "Sample claim incident 2 for MCP testing."
+    },
+    "amount": {
+      "requested": 40000,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "under_review",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_002_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-02-07T11:00:00Z",
+    "updatedAt": "2026-02-10T15:00:00Z"
+  },
+  {
+    "_id": "claim_003",
+    "claimNumber": "CLM-2026-00003",
+    "policyId": "policy_006",
+    "policyNumber": "POL-2026-00006",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0006",
+      "fullName": "Priya Verma",
+      "email": "priya.verma6@example.com",
+      "phone": "+91-90000-00006"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "incident": {
+      "date": "2026-03-07T00:00:00Z",
+      "type": "travel_delay",
+      "description": "Sample claim incident 3 for MCP testing."
+    },
+    "amount": {
+      "requested": 52500,
+      "approved": 52500,
+      "currency": "INR"
+    },
+    "status": "approved",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_003_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-03-09T11:00:00Z",
+    "updatedAt": "2026-03-12T15:00:00Z"
+  },
+  {
+    "_id": "claim_004",
+    "claimNumber": "CLM-2026-00004",
+    "policyId": "policy_008",
+    "policyNumber": "POL-2026-00008",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0008",
+      "fullName": "Neha Iyer",
+      "email": "neha.iyer8@example.com",
+      "phone": "+91-90000-00008"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-04-09T00:00:00Z",
+      "type": "hospitalization",
+      "description": "Sample claim incident 4 for MCP testing."
+    },
+    "amount": {
+      "requested": 65000,
+      "approved": 65000,
+      "currency": "INR"
+    },
+    "status": "settled",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_004_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-04-11T11:00:00Z",
+    "updatedAt": "2026-04-14T15:00:00Z"
+  },
+  {
+    "_id": "claim_005",
+    "claimNumber": "CLM-2026-00005",
+    "policyId": "policy_010",
+    "policyNumber": "POL-2026-00010",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0010",
+      "fullName": "Isha Joshi",
+      "email": "isha.joshi10@example.com",
+      "phone": "+91-90000-00010"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-05-11T00:00:00Z",
+      "type": "accident",
+      "description": "Sample claim incident 5 for MCP testing."
+    },
+    "amount": {
+      "requested": 77500,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "rejected",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_005_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-05-13T11:00:00Z",
+    "updatedAt": "2026-05-16T15:00:00Z"
+  },
+  {
+    "_id": "claim_006",
+    "claimNumber": "CLM-2026-00006",
+    "policyId": "policy_012",
+    "policyNumber": "POL-2026-00012",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0012",
+      "fullName": "Meera Patel",
+      "email": "meera.patel12@example.com",
+      "phone": "+91-90000-00012"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "incident": {
+      "date": "2026-06-13T00:00:00Z",
+      "type": "vehicle_damage",
+      "description": "Sample claim incident 6 for MCP testing."
+    },
+    "amount": {
+      "requested": 90000,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "submitted",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_006_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-06-15T11:00:00Z",
+    "updatedAt": "2026-06-18T15:00:00Z"
+  },
+  {
+    "_id": "claim_007",
+    "claimNumber": "CLM-2026-00007",
+    "policyId": "policy_014",
+    "policyNumber": "POL-2026-00014",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0014",
+      "fullName": "Kavya Gupta",
+      "email": "kavya.gupta14@example.com",
+      "phone": "+91-90000-00014"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-07-15T00:00:00Z",
+      "type": "travel_delay",
+      "description": "Sample claim incident 7 for MCP testing."
+    },
+    "amount": {
+      "requested": 102500,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "under_review",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_007_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-07-17T11:00:00Z",
+    "updatedAt": "2026-07-20T15:00:00Z"
+  },
+  {
+    "_id": "claim_008",
+    "claimNumber": "CLM-2026-00008",
+    "policyId": "policy_016",
+    "policyNumber": "POL-2026-00016",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0016",
+      "fullName": "Sanya Verma",
+      "email": "sanya.verma16@example.com",
+      "phone": "+91-90000-00016"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-08-17T00:00:00Z",
+      "type": "hospitalization",
+      "description": "Sample claim incident 8 for MCP testing."
+    },
+    "amount": {
+      "requested": 115000,
+      "approved": 115000,
+      "currency": "INR"
+    },
+    "status": "approved",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_008_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-08-19T11:00:00Z",
+    "updatedAt": "2026-08-22T15:00:00Z"
+  },
+  {
+    "_id": "claim_009",
+    "claimNumber": "CLM-2026-00009",
+    "policyId": "policy_018",
+    "policyNumber": "POL-2026-00018",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0018",
+      "fullName": "Pooja Iyer",
+      "email": "pooja.iyer18@example.com",
+      "phone": "+91-90000-00018"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "incident": {
+      "date": "2026-09-19T00:00:00Z",
+      "type": "accident",
+      "description": "Sample claim incident 9 for MCP testing."
+    },
+    "amount": {
+      "requested": 127500,
+      "approved": 127500,
+      "currency": "INR"
+    },
+    "status": "settled",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_009_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-09-21T11:00:00Z",
+    "updatedAt": "2026-09-24T15:00:00Z"
+  },
+  {
+    "_id": "claim_010",
+    "claimNumber": "CLM-2026-00010",
+    "policyId": "policy_020",
+    "policyNumber": "POL-2026-00020",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0020",
+      "fullName": "Riya Joshi",
+      "email": "riya.joshi20@example.com",
+      "phone": "+91-90000-00020"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-09-21T00:00:00Z",
+      "type": "vehicle_damage",
+      "description": "Sample claim incident 10 for MCP testing."
+    },
+    "amount": {
+      "requested": 140000,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "rejected",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_010_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-09-23T11:00:00Z",
+    "updatedAt": "2026-09-26T15:00:00Z"
+  },
+  {
+    "_id": "claim_011",
+    "claimNumber": "CLM-2026-00011",
+    "policyId": "policy_022",
+    "policyNumber": "POL-2026-00022",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0022",
+      "fullName": "Sneha Patel",
+      "email": "sneha.patel22@example.com",
+      "phone": "+91-90000-00022"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "incident": {
+      "date": "2026-09-23T00:00:00Z",
+      "type": "travel_delay",
+      "description": "Sample claim incident 11 for MCP testing."
+    },
+    "amount": {
+      "requested": 152500,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "submitted",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_011_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-09-25T11:00:00Z",
+    "updatedAt": "2026-09-28T15:00:00Z"
+  },
+  {
+    "_id": "claim_012",
+    "claimNumber": "CLM-2026-00012",
+    "policyId": "policy_024",
+    "policyNumber": "POL-2026-00024",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0024",
+      "fullName": "Tanya Gupta",
+      "email": "tanya.gupta24@example.com",
+      "phone": "+91-90000-00024"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "incident": {
+      "date": "2026-09-25T00:00:00Z",
+      "type": "hospitalization",
+      "description": "Sample claim incident 12 for MCP testing."
+    },
+    "amount": {
+      "requested": 165000,
+      "approved": 0,
+      "currency": "INR"
+    },
+    "status": "under_review",
+    "documents": [
+      {
+        "type": "claim_form",
+        "fileName": "claim_012_form.pdf"
+      }
+    ],
+    "submittedAt": "2026-09-27T11:00:00Z",
+    "updatedAt": "2026-09-30T15:00:00Z"
+  }
+]

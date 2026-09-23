@@ -1,0 +1,962 @@
+[
+  {
+    "_id": "user_001",
+    "customerCode": "CUS-2026-0001",
+    "profile": {
+      "firstName": "Aarav",
+      "lastName": "Sharma",
+      "dateOfBirth": "1981-01-04",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "aarav.sharma1@example.com",
+      "phone": "+91-90000-00001"
+    },
+    "address": {
+      "line1": "101, Sample Residency",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "postalCode": "400001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****1"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-01-03T10:00:00Z"
+  },
+  {
+    "_id": "user_002",
+    "customerCode": "CUS-2026-0002",
+    "profile": {
+      "firstName": "Aditi",
+      "lastName": "Patel",
+      "dateOfBirth": "1982-02-07",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "aditi.patel2@example.com",
+      "phone": "+91-90000-00002"
+    },
+    "address": {
+      "line1": "102, Sample Residency",
+      "city": "Delhi",
+      "state": "Delhi",
+      "postalCode": "110001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****2"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-02-05T10:00:00Z"
+  },
+  {
+    "_id": "user_003",
+    "customerCode": "CUS-2026-0003",
+    "profile": {
+      "firstName": "Arjun",
+      "lastName": "Singh",
+      "dateOfBirth": "1983-03-10",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "arjun.singh3@example.com",
+      "phone": "+91-90000-00003"
+    },
+    "address": {
+      "line1": "103, Sample Residency",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****3"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-03-07T10:00:00Z"
+  },
+  {
+    "_id": "user_004",
+    "customerCode": "CUS-2026-0004",
+    "profile": {
+      "firstName": "Ananya",
+      "lastName": "Gupta",
+      "dateOfBirth": "1984-04-13",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "ananya.gupta4@example.com",
+      "phone": "+91-90000-00004"
+    },
+    "address": {
+      "line1": "104, Sample Residency",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "postalCode": "411001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****4"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-04-09T10:00:00Z"
+  },
+  {
+    "_id": "user_005",
+    "customerCode": "CUS-2026-0005",
+    "profile": {
+      "firstName": "Rohan",
+      "lastName": "Mehta",
+      "dateOfBirth": "1985-05-16",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "rohan.mehta5@example.com",
+      "phone": "+91-90000-00005"
+    },
+    "address": {
+      "line1": "105, Sample Residency",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "postalCode": "380001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****5"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-05-11T10:00:00Z"
+  },
+  {
+    "_id": "user_006",
+    "customerCode": "CUS-2026-0006",
+    "profile": {
+      "firstName": "Priya",
+      "lastName": "Verma",
+      "dateOfBirth": "1986-06-19",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "priya.verma6@example.com",
+      "phone": "+91-90000-00006"
+    },
+    "address": {
+      "line1": "106, Sample Residency",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "postalCode": "302001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "pending",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****6"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-06-13T10:00:00Z"
+  },
+  {
+    "_id": "user_007",
+    "customerCode": "CUS-2026-0007",
+    "profile": {
+      "firstName": "Vikram",
+      "lastName": "Rao",
+      "dateOfBirth": "1987-07-22",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "vikram.rao7@example.com",
+      "phone": "+91-90000-00007"
+    },
+    "address": {
+      "line1": "107, Sample Residency",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****7"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-07-15T10:00:00Z"
+  },
+  {
+    "_id": "user_008",
+    "customerCode": "CUS-2026-0008",
+    "profile": {
+      "firstName": "Neha",
+      "lastName": "Iyer",
+      "dateOfBirth": "1988-08-25",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "neha.iyer8@example.com",
+      "phone": "+91-90000-00008"
+    },
+    "address": {
+      "line1": "108, Sample Residency",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "postalCode": "500001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****8"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-08-17T10:00:00Z"
+  },
+  {
+    "_id": "user_009",
+    "customerCode": "CUS-2026-0009",
+    "profile": {
+      "firstName": "Rahul",
+      "lastName": "Kumar",
+      "dateOfBirth": "1989-09-01",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "rahul.kumar9@example.com",
+      "phone": "+91-90000-00009"
+    },
+    "address": {
+      "line1": "109, Sample Residency",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "postalCode": "700001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****9"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-01-19T10:00:00Z"
+  },
+  {
+    "_id": "user_010",
+    "customerCode": "CUS-2026-0010",
+    "profile": {
+      "firstName": "Isha",
+      "lastName": "Joshi",
+      "dateOfBirth": "1990-10-04",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "isha.joshi10@example.com",
+      "phone": "+91-90000-00010"
+    },
+    "address": {
+      "line1": "110, Sample Residency",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "postalCode": "226001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****0"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-02-21T10:00:00Z"
+  },
+  {
+    "_id": "user_011",
+    "customerCode": "CUS-2026-0011",
+    "profile": {
+      "firstName": "Kabir",
+      "lastName": "Sharma",
+      "dateOfBirth": "1991-11-07",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "kabir.sharma11@example.com",
+      "phone": "+91-90000-00011"
+    },
+    "address": {
+      "line1": "111, Sample Residency",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "postalCode": "400001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****1"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-03-23T10:00:00Z"
+  },
+  {
+    "_id": "user_012",
+    "customerCode": "CUS-2026-0012",
+    "profile": {
+      "firstName": "Meera",
+      "lastName": "Patel",
+      "dateOfBirth": "1992-12-10",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "meera.patel12@example.com",
+      "phone": "+91-90000-00012"
+    },
+    "address": {
+      "line1": "112, Sample Residency",
+      "city": "Delhi",
+      "state": "Delhi",
+      "postalCode": "110001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "pending",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****2"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-04-25T10:00:00Z"
+  },
+  {
+    "_id": "user_013",
+    "customerCode": "CUS-2026-0013",
+    "profile": {
+      "firstName": "Dev",
+      "lastName": "Singh",
+      "dateOfBirth": "1993-01-13",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "dev.singh13@example.com",
+      "phone": "+91-90000-00013"
+    },
+    "address": {
+      "line1": "113, Sample Residency",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****3"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-05-27T10:00:00Z"
+  },
+  {
+    "_id": "user_014",
+    "customerCode": "CUS-2026-0014",
+    "profile": {
+      "firstName": "Kavya",
+      "lastName": "Gupta",
+      "dateOfBirth": "1994-02-16",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "kavya.gupta14@example.com",
+      "phone": "+91-90000-00014"
+    },
+    "address": {
+      "line1": "114, Sample Residency",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "postalCode": "411001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****4"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-06-02T10:00:00Z"
+  },
+  {
+    "_id": "user_015",
+    "customerCode": "CUS-2026-0015",
+    "profile": {
+      "firstName": "Aditya",
+      "lastName": "Mehta",
+      "dateOfBirth": "1995-03-19",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "aditya.mehta15@example.com",
+      "phone": "+91-90000-00015"
+    },
+    "address": {
+      "line1": "115, Sample Residency",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "postalCode": "380001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****5"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-07-04T10:00:00Z"
+  },
+  {
+    "_id": "user_016",
+    "customerCode": "CUS-2026-0016",
+    "profile": {
+      "firstName": "Sanya",
+      "lastName": "Verma",
+      "dateOfBirth": "1996-04-22",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "sanya.verma16@example.com",
+      "phone": "+91-90000-00016"
+    },
+    "address": {
+      "line1": "116, Sample Residency",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "postalCode": "302001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****6"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-08-06T10:00:00Z"
+  },
+  {
+    "_id": "user_017",
+    "customerCode": "CUS-2026-0017",
+    "profile": {
+      "firstName": "Nikhil",
+      "lastName": "Rao",
+      "dateOfBirth": "1997-05-25",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "nikhil.rao17@example.com",
+      "phone": "+91-90000-00017"
+    },
+    "address": {
+      "line1": "117, Sample Residency",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****7"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-01-08T10:00:00Z"
+  },
+  {
+    "_id": "user_018",
+    "customerCode": "CUS-2026-0018",
+    "profile": {
+      "firstName": "Pooja",
+      "lastName": "Iyer",
+      "dateOfBirth": "1998-06-01",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "pooja.iyer18@example.com",
+      "phone": "+91-90000-00018"
+    },
+    "address": {
+      "line1": "118, Sample Residency",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "postalCode": "500001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "pending",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****8"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-02-10T10:00:00Z"
+  },
+  {
+    "_id": "user_019",
+    "customerCode": "CUS-2026-0019",
+    "profile": {
+      "firstName": "Varun",
+      "lastName": "Kumar",
+      "dateOfBirth": "1999-07-04",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "varun.kumar19@example.com",
+      "phone": "+91-90000-00019"
+    },
+    "address": {
+      "line1": "119, Sample Residency",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "postalCode": "700001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****9"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-03-12T10:00:00Z"
+  },
+  {
+    "_id": "user_020",
+    "customerCode": "CUS-2026-0020",
+    "profile": {
+      "firstName": "Riya",
+      "lastName": "Joshi",
+      "dateOfBirth": "1980-08-07",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "riya.joshi20@example.com",
+      "phone": "+91-90000-00020"
+    },
+    "address": {
+      "line1": "120, Sample Residency",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "postalCode": "226001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****0"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-04-14T10:00:00Z"
+  },
+  {
+    "_id": "user_021",
+    "customerCode": "CUS-2026-0021",
+    "profile": {
+      "firstName": "Karan",
+      "lastName": "Sharma",
+      "dateOfBirth": "1981-09-10",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "karan.sharma21@example.com",
+      "phone": "+91-90000-00021"
+    },
+    "address": {
+      "line1": "121, Sample Residency",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "postalCode": "400001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****1"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-05-16T10:00:00Z"
+  },
+  {
+    "_id": "user_022",
+    "customerCode": "CUS-2026-0022",
+    "profile": {
+      "firstName": "Sneha",
+      "lastName": "Patel",
+      "dateOfBirth": "1982-10-13",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "sneha.patel22@example.com",
+      "phone": "+91-90000-00022"
+    },
+    "address": {
+      "line1": "122, Sample Residency",
+      "city": "Delhi",
+      "state": "Delhi",
+      "postalCode": "110001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****2"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-06-18T10:00:00Z"
+  },
+  {
+    "_id": "user_023",
+    "customerCode": "CUS-2026-0023",
+    "profile": {
+      "firstName": "Manav",
+      "lastName": "Singh",
+      "dateOfBirth": "1983-11-16",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "manav.singh23@example.com",
+      "phone": "+91-90000-00023"
+    },
+    "address": {
+      "line1": "123, Sample Residency",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****3"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-07-20T10:00:00Z"
+  },
+  {
+    "_id": "user_024",
+    "customerCode": "CUS-2026-0024",
+    "profile": {
+      "firstName": "Tanya",
+      "lastName": "Gupta",
+      "dateOfBirth": "1984-12-19",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "tanya.gupta24@example.com",
+      "phone": "+91-90000-00024"
+    },
+    "address": {
+      "line1": "124, Sample Residency",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "postalCode": "411001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "pending",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****4"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-08-22T10:00:00Z"
+  },
+  {
+    "_id": "user_025",
+    "customerCode": "CUS-2026-0025",
+    "profile": {
+      "firstName": "Siddharth",
+      "lastName": "Mehta",
+      "dateOfBirth": "1985-01-22",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "siddharth.mehta25@example.com",
+      "phone": "+91-90000-00025"
+    },
+    "address": {
+      "line1": "125, Sample Residency",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "postalCode": "380001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****5"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-01-24T10:00:00Z"
+  },
+  {
+    "_id": "user_026",
+    "customerCode": "CUS-2026-0026",
+    "profile": {
+      "firstName": "Diya",
+      "lastName": "Verma",
+      "dateOfBirth": "1986-02-25",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "diya.verma26@example.com",
+      "phone": "+91-90000-00026"
+    },
+    "address": {
+      "line1": "126, Sample Residency",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "postalCode": "302001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****6"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-02-26T10:00:00Z"
+  },
+  {
+    "_id": "user_027",
+    "customerCode": "CUS-2026-0027",
+    "profile": {
+      "firstName": "Akash",
+      "lastName": "Rao",
+      "dateOfBirth": "1987-03-01",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "akash.rao27@example.com",
+      "phone": "+91-90000-00027"
+    },
+    "address": {
+      "line1": "127, Sample Residency",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postalCode": "600001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****7"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": true,
+    "createdAt": "2026-03-01T10:00:00Z"
+  },
+  {
+    "_id": "user_028",
+    "customerCode": "CUS-2026-0028",
+    "profile": {
+      "firstName": "Naina",
+      "lastName": "Iyer",
+      "dateOfBirth": "1988-04-04",
+      "gender": "female"
+    },
+    "contact": {
+      "email": "naina.iyer28@example.com",
+      "phone": "+91-90000-00028"
+    },
+    "address": {
+      "line1": "128, Sample Residency",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "postalCode": "500001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****8"
+    },
+    "preferences": {
+      "language": "hi",
+      "contactChannel": "phone"
+    },
+    "isActive": true,
+    "createdAt": "2026-04-03T10:00:00Z"
+  },
+  {
+    "_id": "user_029",
+    "customerCode": "CUS-2026-0029",
+    "profile": {
+      "firstName": "Harsh",
+      "lastName": "Kumar",
+      "dateOfBirth": "1989-05-07",
+      "gender": "other"
+    },
+    "contact": {
+      "email": "harsh.kumar29@example.com",
+      "phone": "+91-90000-00029"
+    },
+    "address": {
+      "line1": "129, Sample Residency",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "postalCode": "700001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "verified",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****9"
+    },
+    "preferences": {
+      "language": "ta",
+      "contactChannel": "sms"
+    },
+    "isActive": true,
+    "createdAt": "2026-05-05T10:00:00Z"
+  },
+  {
+    "_id": "user_030",
+    "customerCode": "CUS-2026-0030",
+    "profile": {
+      "firstName": "Simran",
+      "lastName": "Joshi",
+      "dateOfBirth": "1990-06-10",
+      "gender": "male"
+    },
+    "contact": {
+      "email": "simran.joshi30@example.com",
+      "phone": "+91-90000-00030"
+    },
+    "address": {
+      "line1": "130, Sample Residency",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "postalCode": "226001",
+      "country": "India"
+    },
+    "kyc": {
+      "status": "pending",
+      "documentType": "PAN",
+      "maskedDocumentNumber": "ABCDE****0"
+    },
+    "preferences": {
+      "language": "en",
+      "contactChannel": "email"
+    },
+    "isActive": false,
+    "createdAt": "2026-06-07T10:00:00Z"
+  }
+]

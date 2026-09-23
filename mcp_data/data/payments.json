@@ -1,0 +1,842 @@
+[
+  {
+    "_id": "payment_001",
+    "transactionId": "TXN-2026-000001",
+    "policyId": "policy_001",
+    "policyNumber": "POL-2026-00001",
+    "customerId": "user_001",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0001",
+      "fullName": "Aarav Sharma",
+      "email": "aarav.sharma1@example.com",
+      "phone": "+91-90000-00001"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure"
+    },
+    "amount": {
+      "amount": 8999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-01-03T09:30:00Z",
+    "gatewayReference": "PAYREF00000001",
+    "createdAt": "2026-01-03T09:30:00Z"
+  },
+  {
+    "_id": "payment_002",
+    "transactionId": "TXN-2026-000002",
+    "policyId": "policy_002",
+    "policyNumber": "POL-2026-00002",
+    "customerId": "user_002",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0002",
+      "fullName": "Aditi Patel",
+      "email": "aditi.patel2@example.com",
+      "phone": "+91-90000-00002"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family"
+    },
+    "amount": {
+      "amount": 15999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "paid",
+    "paidAt": "2026-02-05T09:30:00Z",
+    "gatewayReference": "PAYREF00000002",
+    "createdAt": "2026-02-05T09:30:00Z"
+  },
+  {
+    "_id": "payment_003",
+    "transactionId": "TXN-2026-000003",
+    "policyId": "policy_003",
+    "policyNumber": "POL-2026-00003",
+    "customerId": "user_003",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0003",
+      "fullName": "Arjun Singh",
+      "email": "arjun.singh3@example.com",
+      "phone": "+91-90000-00003"
+    },
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard"
+    },
+    "amount": {
+      "amount": 12500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "debit_card",
+    "status": "paid",
+    "paidAt": "2026-03-07T09:30:00Z",
+    "gatewayReference": "PAYREF00000003",
+    "createdAt": "2026-03-07T09:30:00Z"
+  },
+  {
+    "_id": "payment_004",
+    "transactionId": "TXN-2026-000004",
+    "policyId": "policy_004",
+    "policyNumber": "POL-2026-00004",
+    "customerId": "user_004",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0004",
+      "fullName": "Ananya Gupta",
+      "email": "ananya.gupta4@example.com",
+      "phone": "+91-90000-00004"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic"
+    },
+    "amount": {
+      "amount": 4500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "upi",
+    "status": "paid",
+    "paidAt": "2026-04-09T09:30:00Z",
+    "gatewayReference": "PAYREF00000004",
+    "createdAt": "2026-04-09T09:30:00Z"
+  },
+  {
+    "_id": "payment_005",
+    "transactionId": "TXN-2026-000005",
+    "policyId": "policy_005",
+    "policyNumber": "POL-2026-00005",
+    "customerId": "user_005",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0005",
+      "fullName": "Rohan Mehta",
+      "email": "rohan.mehta5@example.com",
+      "phone": "+91-90000-00005"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete"
+    },
+    "amount": {
+      "amount": 13500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-05-11T09:30:00Z",
+    "gatewayReference": "PAYREF00000005",
+    "createdAt": "2026-05-11T09:30:00Z"
+  },
+  {
+    "_id": "payment_006",
+    "transactionId": "TXN-2026-000006",
+    "policyId": "policy_006",
+    "policyNumber": "POL-2026-00006",
+    "customerId": "user_006",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0006",
+      "fullName": "Priya Verma",
+      "email": "priya.verma6@example.com",
+      "phone": "+91-90000-00006"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World"
+    },
+    "amount": {
+      "amount": 2999,
+      "currency": "INR",
+      "billingCycle": "single"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "paid",
+    "paidAt": "2026-06-13T09:30:00Z",
+    "gatewayReference": "PAYREF00000006",
+    "createdAt": "2026-06-13T09:30:00Z"
+  },
+  {
+    "_id": "payment_007",
+    "transactionId": "TXN-2026-000007",
+    "policyId": "policy_007",
+    "policyNumber": "POL-2026-00007",
+    "customerId": "user_007",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0007",
+      "fullName": "Vikram Rao",
+      "email": "vikram.rao7@example.com",
+      "phone": "+91-90000-00007"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure"
+    },
+    "amount": {
+      "amount": 8999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "debit_card",
+    "status": "paid",
+    "paidAt": "2026-07-15T09:30:00Z",
+    "gatewayReference": "PAYREF00000007",
+    "createdAt": "2026-07-15T09:30:00Z"
+  },
+  {
+    "_id": "payment_008",
+    "transactionId": "TXN-2026-000008",
+    "policyId": "policy_008",
+    "policyNumber": "POL-2026-00008",
+    "customerId": "user_008",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0008",
+      "fullName": "Neha Iyer",
+      "email": "neha.iyer8@example.com",
+      "phone": "+91-90000-00008"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family"
+    },
+    "amount": {
+      "amount": 15999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "upi",
+    "status": "paid",
+    "paidAt": "2026-08-17T09:30:00Z",
+    "gatewayReference": "PAYREF00000008",
+    "createdAt": "2026-08-17T09:30:00Z"
+  },
+  {
+    "_id": "payment_009",
+    "transactionId": "TXN-2026-000009",
+    "policyId": "policy_009",
+    "policyNumber": "POL-2026-00009",
+    "customerId": "user_009",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0009",
+      "fullName": "Rahul Kumar",
+      "email": "rahul.kumar9@example.com",
+      "phone": "+91-90000-00009"
+    },
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard"
+    },
+    "amount": {
+      "amount": 12500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-01-19T09:30:00Z",
+    "gatewayReference": "PAYREF00000009",
+    "createdAt": "2026-01-19T09:30:00Z"
+  },
+  {
+    "_id": "payment_010",
+    "transactionId": "TXN-2026-000010",
+    "policyId": "policy_010",
+    "policyNumber": "POL-2026-00010",
+    "customerId": "user_010",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0010",
+      "fullName": "Isha Joshi",
+      "email": "isha.joshi10@example.com",
+      "phone": "+91-90000-00010"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic"
+    },
+    "amount": {
+      "amount": 4500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "paid",
+    "paidAt": "2026-02-21T09:30:00Z",
+    "gatewayReference": "PAYREF00000010",
+    "createdAt": "2026-02-21T09:30:00Z"
+  },
+  {
+    "_id": "payment_011",
+    "transactionId": "TXN-2026-000011",
+    "policyId": "policy_011",
+    "policyNumber": "POL-2026-00011",
+    "customerId": "user_011",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0011",
+      "fullName": "Kabir Sharma",
+      "email": "kabir.sharma11@example.com",
+      "phone": "+91-90000-00011"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete"
+    },
+    "amount": {
+      "amount": 13500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "debit_card",
+    "status": "failed",
+    "paidAt": null,
+    "gatewayReference": "PAYREF00000011",
+    "createdAt": "2026-03-23T09:30:00Z"
+  },
+  {
+    "_id": "payment_012",
+    "transactionId": "TXN-2026-000012",
+    "policyId": "policy_012",
+    "policyNumber": "POL-2026-00012",
+    "customerId": "user_012",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0012",
+      "fullName": "Meera Patel",
+      "email": "meera.patel12@example.com",
+      "phone": "+91-90000-00012"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World"
+    },
+    "amount": {
+      "amount": 2999,
+      "currency": "INR",
+      "billingCycle": "single"
+    },
+    "purpose": "policy_premium",
+    "method": "upi",
+    "status": "paid",
+    "paidAt": "2026-04-25T09:30:00Z",
+    "gatewayReference": "PAYREF00000012",
+    "createdAt": "2026-04-25T09:30:00Z"
+  },
+  {
+    "_id": "payment_013",
+    "transactionId": "TXN-2026-000013",
+    "policyId": "policy_013",
+    "policyNumber": "POL-2026-00013",
+    "customerId": "user_013",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0013",
+      "fullName": "Dev Singh",
+      "email": "dev.singh13@example.com",
+      "phone": "+91-90000-00013"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure"
+    },
+    "amount": {
+      "amount": 8999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-05-02T09:30:00Z",
+    "gatewayReference": "PAYREF00000013",
+    "createdAt": "2026-05-02T09:30:00Z"
+  },
+  {
+    "_id": "payment_014",
+    "transactionId": "TXN-2026-000014",
+    "policyId": "policy_014",
+    "policyNumber": "POL-2026-00014",
+    "customerId": "user_014",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0014",
+      "fullName": "Kavya Gupta",
+      "email": "kavya.gupta14@example.com",
+      "phone": "+91-90000-00014"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family"
+    },
+    "amount": {
+      "amount": 15999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "paid",
+    "paidAt": "2026-06-04T09:30:00Z",
+    "gatewayReference": "PAYREF00000014",
+    "createdAt": "2026-06-04T09:30:00Z"
+  },
+  {
+    "_id": "payment_015",
+    "transactionId": "TXN-2026-000015",
+    "policyId": "policy_015",
+    "policyNumber": "POL-2026-00015",
+    "customerId": "user_015",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0015",
+      "fullName": "Aditya Mehta",
+      "email": "aditya.mehta15@example.com",
+      "phone": "+91-90000-00015"
+    },
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard"
+    },
+    "amount": {
+      "amount": 12500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "debit_card",
+    "status": "paid",
+    "paidAt": "2026-07-06T09:30:00Z",
+    "gatewayReference": "PAYREF00000015",
+    "createdAt": "2026-07-06T09:30:00Z"
+  },
+  {
+    "_id": "payment_016",
+    "transactionId": "TXN-2026-000016",
+    "policyId": "policy_016",
+    "policyNumber": "POL-2026-00016",
+    "customerId": "user_016",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0016",
+      "fullName": "Sanya Verma",
+      "email": "sanya.verma16@example.com",
+      "phone": "+91-90000-00016"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic"
+    },
+    "amount": {
+      "amount": 4500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "upi",
+    "status": "paid",
+    "paidAt": "2026-08-08T09:30:00Z",
+    "gatewayReference": "PAYREF00000016",
+    "createdAt": "2026-08-08T09:30:00Z"
+  },
+  {
+    "_id": "payment_017",
+    "transactionId": "TXN-2026-000017",
+    "policyId": "policy_017",
+    "policyNumber": "POL-2026-00017",
+    "customerId": "user_017",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0017",
+      "fullName": "Nikhil Rao",
+      "email": "nikhil.rao17@example.com",
+      "phone": "+91-90000-00017"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete"
+    },
+    "amount": {
+      "amount": 13500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-01-10T09:30:00Z",
+    "gatewayReference": "PAYREF00000017",
+    "createdAt": "2026-01-10T09:30:00Z"
+  },
+  {
+    "_id": "payment_018",
+    "transactionId": "TXN-2026-000018",
+    "policyId": "policy_018",
+    "policyNumber": "POL-2026-00018",
+    "customerId": "user_018",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0018",
+      "fullName": "Pooja Iyer",
+      "email": "pooja.iyer18@example.com",
+      "phone": "+91-90000-00018"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World"
+    },
+    "amount": {
+      "amount": 2999,
+      "currency": "INR",
+      "billingCycle": "single"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "paid",
+    "paidAt": "2026-02-12T09:30:00Z",
+    "gatewayReference": "PAYREF00000018",
+    "createdAt": "2026-02-12T09:30:00Z"
+  },
+  {
+    "_id": "payment_019",
+    "transactionId": "TXN-2026-000019",
+    "policyId": "policy_019",
+    "policyNumber": "POL-2026-00019",
+    "customerId": "user_019",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0019",
+      "fullName": "Varun Kumar",
+      "email": "varun.kumar19@example.com",
+      "phone": "+91-90000-00019"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure"
+    },
+    "amount": {
+      "amount": 8999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "debit_card",
+    "status": "paid",
+    "paidAt": "2026-03-14T09:30:00Z",
+    "gatewayReference": "PAYREF00000019",
+    "createdAt": "2026-03-14T09:30:00Z"
+  },
+  {
+    "_id": "payment_020",
+    "transactionId": "TXN-2026-000020",
+    "policyId": "policy_020",
+    "policyNumber": "POL-2026-00020",
+    "customerId": "user_020",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0020",
+      "fullName": "Riya Joshi",
+      "email": "riya.joshi20@example.com",
+      "phone": "+91-90000-00020"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family"
+    },
+    "amount": {
+      "amount": 15999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "upi",
+    "status": "paid",
+    "paidAt": "2026-04-16T09:30:00Z",
+    "gatewayReference": "PAYREF00000020",
+    "createdAt": "2026-04-16T09:30:00Z"
+  },
+  {
+    "_id": "payment_021",
+    "transactionId": "TXN-2026-000021",
+    "policyId": "policy_021",
+    "policyNumber": "POL-2026-00021",
+    "customerId": "user_021",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0021",
+      "fullName": "Karan Sharma",
+      "email": "karan.sharma21@example.com",
+      "phone": "+91-90000-00021"
+    },
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard"
+    },
+    "amount": {
+      "amount": 12500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-05-18T09:30:00Z",
+    "gatewayReference": "PAYREF00000021",
+    "createdAt": "2026-05-18T09:30:00Z"
+  },
+  {
+    "_id": "payment_022",
+    "transactionId": "TXN-2026-000022",
+    "policyId": "policy_022",
+    "policyNumber": "POL-2026-00022",
+    "customerId": "user_022",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0022",
+      "fullName": "Sneha Patel",
+      "email": "sneha.patel22@example.com",
+      "phone": "+91-90000-00022"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic"
+    },
+    "amount": {
+      "amount": 4500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "failed",
+    "paidAt": null,
+    "gatewayReference": "PAYREF00000022",
+    "createdAt": "2026-06-20T09:30:00Z"
+  },
+  {
+    "_id": "payment_023",
+    "transactionId": "TXN-2026-000023",
+    "policyId": "policy_023",
+    "policyNumber": "POL-2026-00023",
+    "customerId": "user_023",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0023",
+      "fullName": "Manav Singh",
+      "email": "manav.singh23@example.com",
+      "phone": "+91-90000-00023"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete"
+    },
+    "amount": {
+      "amount": 13500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "debit_card",
+    "status": "paid",
+    "paidAt": "2026-07-22T09:30:00Z",
+    "gatewayReference": "PAYREF00000023",
+    "createdAt": "2026-07-22T09:30:00Z"
+  },
+  {
+    "_id": "payment_024",
+    "transactionId": "TXN-2026-000024",
+    "policyId": "policy_024",
+    "policyNumber": "POL-2026-00024",
+    "customerId": "user_024",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0024",
+      "fullName": "Tanya Gupta",
+      "email": "tanya.gupta24@example.com",
+      "phone": "+91-90000-00024"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World"
+    },
+    "amount": {
+      "amount": 2999,
+      "currency": "INR",
+      "billingCycle": "single"
+    },
+    "purpose": "policy_premium",
+    "method": "upi",
+    "status": "paid",
+    "paidAt": "2026-08-24T09:30:00Z",
+    "gatewayReference": "PAYREF00000024",
+    "createdAt": "2026-08-24T09:30:00Z"
+  },
+  {
+    "_id": "payment_025",
+    "transactionId": "TXN-2026-000025",
+    "policyId": "policy_025",
+    "policyNumber": "POL-2026-00025",
+    "customerId": "user_025",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0025",
+      "fullName": "Siddharth Mehta",
+      "email": "siddharth.mehta25@example.com",
+      "phone": "+91-90000-00025"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure"
+    },
+    "amount": {
+      "amount": 8999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-01-01T09:30:00Z",
+    "gatewayReference": "PAYREF00000025",
+    "createdAt": "2026-01-01T09:30:00Z"
+  },
+  {
+    "_id": "payment_026",
+    "transactionId": "TXN-2026-000026",
+    "policyId": "policy_026",
+    "policyNumber": "POL-2026-00026",
+    "customerId": "user_026",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0026",
+      "fullName": "Diya Verma",
+      "email": "diya.verma26@example.com",
+      "phone": "+91-90000-00026"
+    },
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family"
+    },
+    "amount": {
+      "amount": 15999,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "paid",
+    "paidAt": "2026-02-03T09:30:00Z",
+    "gatewayReference": "PAYREF00000026",
+    "createdAt": "2026-02-03T09:30:00Z"
+  },
+  {
+    "_id": "payment_027",
+    "transactionId": "TXN-2026-000027",
+    "policyId": "policy_027",
+    "policyNumber": "POL-2026-00027",
+    "customerId": "user_027",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0027",
+      "fullName": "Akash Rao",
+      "email": "akash.rao27@example.com",
+      "phone": "+91-90000-00027"
+    },
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard"
+    },
+    "amount": {
+      "amount": 12500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "debit_card",
+    "status": "paid",
+    "paidAt": "2026-03-05T09:30:00Z",
+    "gatewayReference": "PAYREF00000027",
+    "createdAt": "2026-03-05T09:30:00Z"
+  },
+  {
+    "_id": "payment_028",
+    "transactionId": "TXN-2026-000028",
+    "policyId": "policy_028",
+    "policyNumber": "POL-2026-00028",
+    "customerId": "user_028",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0028",
+      "fullName": "Naina Iyer",
+      "email": "naina.iyer28@example.com",
+      "phone": "+91-90000-00028"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic"
+    },
+    "amount": {
+      "amount": 4500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "upi",
+    "status": "paid",
+    "paidAt": "2026-04-07T09:30:00Z",
+    "gatewayReference": "PAYREF00000028",
+    "createdAt": "2026-04-07T09:30:00Z"
+  },
+  {
+    "_id": "payment_029",
+    "transactionId": "TXN-2026-000029",
+    "policyId": "policy_029",
+    "policyNumber": "POL-2026-00029",
+    "customerId": "user_029",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0029",
+      "fullName": "Harsh Kumar",
+      "email": "harsh.kumar29@example.com",
+      "phone": "+91-90000-00029"
+    },
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete"
+    },
+    "amount": {
+      "amount": 13500,
+      "currency": "INR",
+      "billingCycle": "yearly"
+    },
+    "purpose": "policy_premium",
+    "method": "credit_card",
+    "status": "paid",
+    "paidAt": "2026-05-09T09:30:00Z",
+    "gatewayReference": "PAYREF00000029",
+    "createdAt": "2026-05-09T09:30:00Z"
+  },
+  {
+    "_id": "payment_030",
+    "transactionId": "TXN-2026-000030",
+    "policyId": "policy_030",
+    "policyNumber": "POL-2026-00030",
+    "customerId": "user_030",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0030",
+      "fullName": "Simran Joshi",
+      "email": "simran.joshi30@example.com",
+      "phone": "+91-90000-00030"
+    },
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World"
+    },
+    "amount": {
+      "amount": 2999,
+      "currency": "INR",
+      "billingCycle": "single"
+    },
+    "purpose": "policy_premium",
+    "method": "net_banking",
+    "status": "paid",
+    "paidAt": "2026-06-11T09:30:00Z",
+    "gatewayReference": "PAYREF00000030",
+    "createdAt": "2026-06-11T09:30:00Z"
+  }
+]

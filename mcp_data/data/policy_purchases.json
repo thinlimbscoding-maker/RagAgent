@@ -1,0 +1,932 @@
+[
+  {
+    "_id": "policy_001",
+    "policyNumber": "POL-2026-00001",
+    "customerId": "user_001",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0001",
+      "fullName": "Aarav Sharma",
+      "email": "aarav.sharma1@example.com",
+      "phone": "+91-90000-00001"
+    },
+    "planId": "plan_health_secure",
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure",
+      "category": "health",
+      "coverageAmount": 500000,
+      "premium": {
+        "amount": 8999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-01-03T00:00:00Z",
+    "endDate": "2027-01-03T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 1",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-01-03T09:30:00Z"
+  },
+  {
+    "_id": "policy_002",
+    "policyNumber": "POL-2026-00002",
+    "customerId": "user_002",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0002",
+      "fullName": "Aditi Patel",
+      "email": "aditi.patel2@example.com",
+      "phone": "+91-90000-00002"
+    },
+    "planId": "plan_health_plus",
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-02-05T00:00:00Z",
+    "endDate": "2027-02-05T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 2",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-02-05T09:30:00Z"
+  },
+  {
+    "_id": "policy_003",
+    "policyNumber": "POL-2026-00003",
+    "customerId": "user_003",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0003",
+      "fullName": "Arjun Singh",
+      "email": "arjun.singh3@example.com",
+      "phone": "+91-90000-00003"
+    },
+    "planId": "plan_term_guard",
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard",
+      "category": "life",
+      "coverageAmount": 5000000,
+      "premium": {
+        "amount": 12500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-03-07T00:00:00Z",
+    "endDate": "2045-11-22T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 3",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-03-07T09:30:00Z"
+  },
+  {
+    "_id": "policy_004",
+    "policyNumber": "POL-2026-00004",
+    "customerId": "user_004",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0004",
+      "fullName": "Ananya Gupta",
+      "email": "ananya.gupta4@example.com",
+      "phone": "+91-90000-00004"
+    },
+    "planId": "plan_motor_basic",
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-04-09T00:00:00Z",
+    "endDate": "2027-04-09T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 4",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-04-09T09:30:00Z"
+  },
+  {
+    "_id": "policy_005",
+    "policyNumber": "POL-2026-00005",
+    "customerId": "user_005",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0005",
+      "fullName": "Rohan Mehta",
+      "email": "rohan.mehta5@example.com",
+      "phone": "+91-90000-00005"
+    },
+    "planId": "plan_motor_complete",
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete",
+      "category": "motor",
+      "coverageAmount": 1200000,
+      "premium": {
+        "amount": 13500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-05-11T00:00:00Z",
+    "endDate": "2027-05-11T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 5",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-05-11T09:30:00Z"
+  },
+  {
+    "_id": "policy_006",
+    "policyNumber": "POL-2026-00006",
+    "customerId": "user_006",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0006",
+      "fullName": "Priya Verma",
+      "email": "priya.verma6@example.com",
+      "phone": "+91-90000-00006"
+    },
+    "planId": "plan_travel_world",
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-06-13T00:00:00Z",
+    "endDate": "2026-09-11T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 6",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-06-13T09:30:00Z"
+  },
+  {
+    "_id": "policy_007",
+    "policyNumber": "POL-2026-00007",
+    "customerId": "user_007",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0007",
+      "fullName": "Vikram Rao",
+      "email": "vikram.rao7@example.com",
+      "phone": "+91-90000-00007"
+    },
+    "planId": "plan_health_secure",
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure",
+      "category": "health",
+      "coverageAmount": 500000,
+      "premium": {
+        "amount": 8999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-07-15T00:00:00Z",
+    "endDate": "2027-07-15T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 7",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-07-15T09:30:00Z"
+  },
+  {
+    "_id": "policy_008",
+    "policyNumber": "POL-2026-00008",
+    "customerId": "user_008",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0008",
+      "fullName": "Neha Iyer",
+      "email": "neha.iyer8@example.com",
+      "phone": "+91-90000-00008"
+    },
+    "planId": "plan_health_plus",
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-08-17T00:00:00Z",
+    "endDate": "2027-08-17T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 8",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-08-17T09:30:00Z"
+  },
+  {
+    "_id": "policy_009",
+    "policyNumber": "POL-2026-00009",
+    "customerId": "user_009",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0009",
+      "fullName": "Rahul Kumar",
+      "email": "rahul.kumar9@example.com",
+      "phone": "+91-90000-00009"
+    },
+    "planId": "plan_term_guard",
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard",
+      "category": "life",
+      "coverageAmount": 5000000,
+      "premium": {
+        "amount": 12500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-01-19T00:00:00Z",
+    "endDate": "2045-10-06T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 9",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-01-19T09:30:00Z"
+  },
+  {
+    "_id": "policy_010",
+    "policyNumber": "POL-2026-00010",
+    "customerId": "user_010",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0010",
+      "fullName": "Isha Joshi",
+      "email": "isha.joshi10@example.com",
+      "phone": "+91-90000-00010"
+    },
+    "planId": "plan_motor_basic",
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "cancelled",
+    "startDate": "2026-02-21T00:00:00Z",
+    "endDate": "2027-02-21T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 10",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-02-21T09:30:00Z"
+  },
+  {
+    "_id": "policy_011",
+    "policyNumber": "POL-2026-00011",
+    "customerId": "user_011",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0011",
+      "fullName": "Kabir Sharma",
+      "email": "kabir.sharma11@example.com",
+      "phone": "+91-90000-00011"
+    },
+    "planId": "plan_motor_complete",
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete",
+      "category": "motor",
+      "coverageAmount": 1200000,
+      "premium": {
+        "amount": 13500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-03-23T00:00:00Z",
+    "endDate": "2027-03-23T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 11",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-03-23T09:30:00Z"
+  },
+  {
+    "_id": "policy_012",
+    "policyNumber": "POL-2026-00012",
+    "customerId": "user_012",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0012",
+      "fullName": "Meera Patel",
+      "email": "meera.patel12@example.com",
+      "phone": "+91-90000-00012"
+    },
+    "planId": "plan_travel_world",
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-04-25T00:00:00Z",
+    "endDate": "2026-07-24T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 12",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-04-25T09:30:00Z"
+  },
+  {
+    "_id": "policy_013",
+    "policyNumber": "POL-2026-00013",
+    "customerId": "user_013",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0013",
+      "fullName": "Dev Singh",
+      "email": "dev.singh13@example.com",
+      "phone": "+91-90000-00013"
+    },
+    "planId": "plan_health_secure",
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure",
+      "category": "health",
+      "coverageAmount": 500000,
+      "premium": {
+        "amount": 8999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-05-02T00:00:00Z",
+    "endDate": "2027-05-02T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 13",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-05-02T09:30:00Z"
+  },
+  {
+    "_id": "policy_014",
+    "policyNumber": "POL-2026-00014",
+    "customerId": "user_014",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0014",
+      "fullName": "Kavya Gupta",
+      "email": "kavya.gupta14@example.com",
+      "phone": "+91-90000-00014"
+    },
+    "planId": "plan_health_plus",
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-06-04T00:00:00Z",
+    "endDate": "2027-06-04T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 14",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-06-04T09:30:00Z"
+  },
+  {
+    "_id": "policy_015",
+    "policyNumber": "POL-2026-00015",
+    "customerId": "user_015",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0015",
+      "fullName": "Aditya Mehta",
+      "email": "aditya.mehta15@example.com",
+      "phone": "+91-90000-00015"
+    },
+    "planId": "plan_term_guard",
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard",
+      "category": "life",
+      "coverageAmount": 5000000,
+      "premium": {
+        "amount": 12500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-07-06T00:00:00Z",
+    "endDate": "2046-03-23T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 15",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-07-06T09:30:00Z"
+  },
+  {
+    "_id": "policy_016",
+    "policyNumber": "POL-2026-00016",
+    "customerId": "user_016",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0016",
+      "fullName": "Sanya Verma",
+      "email": "sanya.verma16@example.com",
+      "phone": "+91-90000-00016"
+    },
+    "planId": "plan_motor_basic",
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-08-08T00:00:00Z",
+    "endDate": "2027-08-08T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 16",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-08-08T09:30:00Z"
+  },
+  {
+    "_id": "policy_017",
+    "policyNumber": "POL-2026-00017",
+    "customerId": "user_017",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0017",
+      "fullName": "Nikhil Rao",
+      "email": "nikhil.rao17@example.com",
+      "phone": "+91-90000-00017"
+    },
+    "planId": "plan_motor_complete",
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete",
+      "category": "motor",
+      "coverageAmount": 1200000,
+      "premium": {
+        "amount": 13500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-01-10T00:00:00Z",
+    "endDate": "2027-01-10T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 17",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-01-10T09:30:00Z"
+  },
+  {
+    "_id": "policy_018",
+    "policyNumber": "POL-2026-00018",
+    "customerId": "user_018",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0018",
+      "fullName": "Pooja Iyer",
+      "email": "pooja.iyer18@example.com",
+      "phone": "+91-90000-00018"
+    },
+    "planId": "plan_travel_world",
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-02-12T00:00:00Z",
+    "endDate": "2026-05-13T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 18",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-02-12T09:30:00Z"
+  },
+  {
+    "_id": "policy_019",
+    "policyNumber": "POL-2026-00019",
+    "customerId": "user_019",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0019",
+      "fullName": "Varun Kumar",
+      "email": "varun.kumar19@example.com",
+      "phone": "+91-90000-00019"
+    },
+    "planId": "plan_health_secure",
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure",
+      "category": "health",
+      "coverageAmount": 500000,
+      "premium": {
+        "amount": 8999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-03-14T00:00:00Z",
+    "endDate": "2027-03-14T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 19",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-03-14T09:30:00Z"
+  },
+  {
+    "_id": "policy_020",
+    "policyNumber": "POL-2026-00020",
+    "customerId": "user_020",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0020",
+      "fullName": "Riya Joshi",
+      "email": "riya.joshi20@example.com",
+      "phone": "+91-90000-00020"
+    },
+    "planId": "plan_health_plus",
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "cancelled",
+    "startDate": "2026-04-16T00:00:00Z",
+    "endDate": "2027-04-16T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 20",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-04-16T09:30:00Z"
+  },
+  {
+    "_id": "policy_021",
+    "policyNumber": "POL-2026-00021",
+    "customerId": "user_021",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0021",
+      "fullName": "Karan Sharma",
+      "email": "karan.sharma21@example.com",
+      "phone": "+91-90000-00021"
+    },
+    "planId": "plan_term_guard",
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard",
+      "category": "life",
+      "coverageAmount": 5000000,
+      "premium": {
+        "amount": 12500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-05-18T00:00:00Z",
+    "endDate": "2046-02-02T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 21",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-05-18T09:30:00Z"
+  },
+  {
+    "_id": "policy_022",
+    "policyNumber": "POL-2026-00022",
+    "customerId": "user_022",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0022",
+      "fullName": "Sneha Patel",
+      "email": "sneha.patel22@example.com",
+      "phone": "+91-90000-00022"
+    },
+    "planId": "plan_motor_basic",
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-06-20T00:00:00Z",
+    "endDate": "2027-06-20T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 22",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-06-20T09:30:00Z"
+  },
+  {
+    "_id": "policy_023",
+    "policyNumber": "POL-2026-00023",
+    "customerId": "user_023",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0023",
+      "fullName": "Manav Singh",
+      "email": "manav.singh23@example.com",
+      "phone": "+91-90000-00023"
+    },
+    "planId": "plan_motor_complete",
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete",
+      "category": "motor",
+      "coverageAmount": 1200000,
+      "premium": {
+        "amount": 13500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-07-22T00:00:00Z",
+    "endDate": "2027-07-22T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 23",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-07-22T09:30:00Z"
+  },
+  {
+    "_id": "policy_024",
+    "policyNumber": "POL-2026-00024",
+    "customerId": "user_024",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0024",
+      "fullName": "Tanya Gupta",
+      "email": "tanya.gupta24@example.com",
+      "phone": "+91-90000-00024"
+    },
+    "planId": "plan_travel_world",
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-08-24T00:00:00Z",
+    "endDate": "2026-11-22T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 24",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-08-24T09:30:00Z"
+  },
+  {
+    "_id": "policy_025",
+    "policyNumber": "POL-2026-00025",
+    "customerId": "user_025",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0025",
+      "fullName": "Siddharth Mehta",
+      "email": "siddharth.mehta25@example.com",
+      "phone": "+91-90000-00025"
+    },
+    "planId": "plan_health_secure",
+    "planSnapshot": {
+      "planCode": "HLT-SEC-01",
+      "name": "Health Secure",
+      "category": "health",
+      "coverageAmount": 500000,
+      "premium": {
+        "amount": 8999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-01-01T00:00:00Z",
+    "endDate": "2027-01-01T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 25",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-01-01T09:30:00Z"
+  },
+  {
+    "_id": "policy_026",
+    "policyNumber": "POL-2026-00026",
+    "customerId": "user_026",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0026",
+      "fullName": "Diya Verma",
+      "email": "diya.verma26@example.com",
+      "phone": "+91-90000-00026"
+    },
+    "planId": "plan_health_plus",
+    "planSnapshot": {
+      "planCode": "HLT-PLS-02",
+      "name": "Health Plus Family",
+      "category": "health",
+      "coverageAmount": 1000000,
+      "premium": {
+        "amount": 15999,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-02-03T00:00:00Z",
+    "endDate": "2027-02-03T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 26",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-02-03T09:30:00Z"
+  },
+  {
+    "_id": "policy_027",
+    "policyNumber": "POL-2026-00027",
+    "customerId": "user_027",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0027",
+      "fullName": "Akash Rao",
+      "email": "akash.rao27@example.com",
+      "phone": "+91-90000-00027"
+    },
+    "planId": "plan_term_guard",
+    "planSnapshot": {
+      "planCode": "LIF-TRM-01",
+      "name": "Term Life Guard",
+      "category": "life",
+      "coverageAmount": 5000000,
+      "premium": {
+        "amount": 12500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-03-05T00:00:00Z",
+    "endDate": "2045-11-20T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 27",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-03-05T09:30:00Z"
+  },
+  {
+    "_id": "policy_028",
+    "policyNumber": "POL-2026-00028",
+    "customerId": "user_028",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0028",
+      "fullName": "Naina Iyer",
+      "email": "naina.iyer28@example.com",
+      "phone": "+91-90000-00028"
+    },
+    "planId": "plan_motor_basic",
+    "planSnapshot": {
+      "planCode": "MTR-BSC-01",
+      "name": "Motor Basic",
+      "category": "motor",
+      "coverageAmount": 750000,
+      "premium": {
+        "amount": 4500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-04-07T00:00:00Z",
+    "endDate": "2027-04-07T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 28",
+      "relationship": "parent"
+    },
+    "createdAt": "2026-04-07T09:30:00Z"
+  },
+  {
+    "_id": "policy_029",
+    "policyNumber": "POL-2026-00029",
+    "customerId": "user_029",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0029",
+      "fullName": "Harsh Kumar",
+      "email": "harsh.kumar29@example.com",
+      "phone": "+91-90000-00029"
+    },
+    "planId": "plan_motor_complete",
+    "planSnapshot": {
+      "planCode": "MTR-CMP-02",
+      "name": "Motor Complete",
+      "category": "motor",
+      "coverageAmount": 1200000,
+      "premium": {
+        "amount": 13500,
+        "currency": "INR",
+        "billingCycle": "yearly"
+      }
+    },
+    "status": "active",
+    "startDate": "2026-05-09T00:00:00Z",
+    "endDate": "2027-05-09T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 29",
+      "relationship": "sibling"
+    },
+    "createdAt": "2026-05-09T09:30:00Z"
+  },
+  {
+    "_id": "policy_030",
+    "policyNumber": "POL-2026-00030",
+    "customerId": "user_030",
+    "customerSnapshot": {
+      "customerCode": "CUS-2026-0030",
+      "fullName": "Simran Joshi",
+      "email": "simran.joshi30@example.com",
+      "phone": "+91-90000-00030"
+    },
+    "planId": "plan_travel_world",
+    "planSnapshot": {
+      "planCode": "TRV-WLD-01",
+      "name": "Travel World",
+      "category": "travel",
+      "coverageAmount": 2500000,
+      "premium": {
+        "amount": 2999,
+        "currency": "INR",
+        "billingCycle": "single"
+      }
+    },
+    "status": "cancelled",
+    "startDate": "2026-06-11T00:00:00Z",
+    "endDate": "2026-09-09T23:59:59Z",
+    "nominee": {
+      "name": "Nominee 30",
+      "relationship": "spouse"
+    },
+    "createdAt": "2026-06-11T09:30:00Z"
+  }
+]
