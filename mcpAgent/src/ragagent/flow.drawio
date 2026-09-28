@@ -1,0 +1,26 @@
+<mxfile host="65bd71144e">
+    <diagram id="NTzDePbiS6m6ET3kVZVX" name="Page-1">
+        <mxGraphModel dx="579" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="62oU9tFabiUxULuszcV1-4" edge="1" parent="1" source="62oU9tFabiUxULuszcV1-2" style="edgeStyle=none;html=1;" target="62oU9tFabiUxULuszcV1-3" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;mcpServer.py&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;here all mcp tool logic will be written&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" link="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;mcpServer.py&lt;/span&gt;" id="62oU9tFabiUxULuszcV1-2">
+                    <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1">
+                        <mxGeometry height="60" width="290" x="20" y="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="62oU9tFabiUxULuszcV1-5" edge="1" parent="1" source="62oU9tFabiUxULuszcV1-3" style="edgeStyle=none;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62oU9tFabiUxULuszcV1-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="we will call thoose tool which reuired in pythonClient.py file" vertex="1">
+                    <mxGeometry height="60" width="270" x="30" y="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
