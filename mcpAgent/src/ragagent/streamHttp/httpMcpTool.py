@@ -6,22 +6,22 @@ mcp = FastMCP()
 
 
 @mcp.tool()
-def fetchData():
-    return "we got data"
+def fetchData2():
+    return "we got data2"
 
 
 @mcp.tool()
-def fetchInfo():
-    return "we got info"
+def fetchInfo2():
+    return "we got info2"
 
 
 @mcp.tool()
-def fetchGender(path: str):
-    return "we got fetaGender"
+def fetchGender2(path: str):
+    return "we got fetaGender2"
 
 
 @mcp.tool()
-def getAPiData():
+def getAPiData2():
     url = "https://jsonplaceholder.typicode.com/todos/1"
 
     try:
@@ -49,6 +49,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.transport == "http":
-        mcp.run(transport="http", host="127.0.0.1", port=8000)
+        mcp.run(transport="http", host="127.0.0.1", port=8001)
     else:
         mcp.run(transport="stdio")
